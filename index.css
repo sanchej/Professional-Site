@@ -94,6 +94,14 @@ body {
         font-size: 13px;
     }
 
+    .col {
+        width: 80%;
+    }
+
+    .row {
+        display: inline;
+    }
+
     #brief {
         margin: 10px;
         font-size: 20px;

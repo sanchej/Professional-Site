@@ -1,0 +1,115 @@
+body,
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.img {
+    width: 95%;
+    height: auto;
+    margin: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+body {
+    padding-top: 70px;
+}
+
+#bannerdiv {
+    position: absolute;
+    left: -2%;
+    top: 0%;
+    width: 102%;
+    height: 70px;
+    margin: 0px;
+    border-width: 0px;
+    border-color: red;
+    background-image: url('hotel-wallpaper-black.webp');
+    border-bottom-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red) 1;
+}
+
+#title {
+    margin-top: 5px;
+    color: white;
+}
+
+#ind1 {
+    background-image: url('triangle-mosaic.webp');
+}
+
+#welcome {
+    margin: 30px;
+    font-size: 30px;
+}
+
+#brief {
+    margin: 10px;
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+#thanks {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+    margin: 20px;
+    text-indent: 30px;
+}
+
+#phone {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#footer {
+    height: 120px;
+    border-top: solid 3px black;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    #brief {
+        margin: 10px;
+        font-size: 20px;
+        margin-top: 140px;
+    }
+
+    .nav-link {
+        font-size: small;
+    }
+
+    #title {
+        margin-top: 15px;
+        font-size: 22px;
+    }
+
+    .text {
+        font-size: small;
+    }
+}
